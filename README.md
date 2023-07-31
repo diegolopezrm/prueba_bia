@@ -2,7 +2,9 @@
 
 Esta aplicación permite a los usuarios explorar una lista de personajes de Marvel y filtrar la lista a través de una función de búsqueda. Además, hemos implementado animaciones para mejorar la experiencia del usuario.
 
-![image](https://github.com/diegolopezrm/prueba_bia/assets/63005462/4814410d-ea43-40b0-aa46-436c7e610f54)
+
+<img src="https://github.com/diegolopezrm/prueba_bia/assets/63005462/b32bdab7-8c5d-4af6-9549-3243db04608b"  width="15%" height="30%">
+
 
 
 ## Tabla de contenidos
