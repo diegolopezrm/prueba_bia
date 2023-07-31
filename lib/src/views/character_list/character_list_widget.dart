@@ -94,9 +94,12 @@ class _CharacterListWidgetState extends State<CharacterListWidget> {
                     final character = filteredCharacters[index];
                     return ListTile(
                       title: Text(character.name),
-                      leading: CircleAvatar(
-                        backgroundImage: NetworkImage(
-                          '${character.thumbnail.path}.${character.thumbnail.extension}',
+                      leading: Hero(
+                        tag: character.id,
+                        child: CircleAvatar(
+                          backgroundImage: NetworkImage(
+                            '${character.thumbnail.path}.${character.thumbnail.extension}',
+                          ),
                         ),
                       ),
                       subtitle: Text(character.description.length > 30
