@@ -5,12 +5,12 @@ import '../../models/character.dart';
 class CharacterDetailPage extends StatelessWidget {
   final Character character;
 
-  const CharacterDetailPage({required this.character});
+  const CharacterDetailPage({super.key, required this.character});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 249, 224, 227),
+      backgroundColor: const Color.fromARGB(255, 249, 224, 227),
       appBar: AppBar(title: Text(character.name)),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

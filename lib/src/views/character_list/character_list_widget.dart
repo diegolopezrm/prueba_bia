@@ -5,9 +5,10 @@ import '../../services/api_service.dart';
 import '../character_detail/character_detail_page.dart';
 
 class CharacterListWidget extends StatefulWidget {
-  const CharacterListWidget({super.key});
+  const CharacterListWidget({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _CharacterListWidgetState createState() => _CharacterListWidgetState();
 }
 
