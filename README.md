@@ -74,42 +74,6 @@ final response = await http.get(
 4. Luego, ejecuta `flutter run` para iniciar la aplicación.
 
 
-
-<!-- Pruebas unitarias
-Las pruebas unitarias son esenciales para garantizar la funcionalidad y confiabilidad de la aplicación. Estas pruebas se enfocan en validar que cada "unidad" individual de software funcione correctamente en aislamiento.
-
-Configuración
-Asegúrate de tener todas las dependencias relacionadas con las pruebas en tu archivo pubspec.yaml:
-yaml
-Copy code
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-Crea una carpeta test en la raíz de tu proyecto.
-Pruebas para el modelo Character
-El archivo character_test.dart contiene pruebas unitarias que validan la correcta deserialización de un JSON a un objeto Character.
-
-dart
-Copy code
-void main() {
-    test('fromJson() should correctly deserialize a Character', () {
-        final Map<String, dynamic> json = {
-            // Aquí iría una representación JSON completa de un personaje
-        };
-
-        final character = Character.fromJson(json);
-        expect(character.id, json['id']);
-        // Agrega más expect para verificar cada campo
-    });
-}
-Ideas adicionales para pruebas unitarias
-Pruebas de validación: Si tienes reglas de validación, crea pruebas que aseguren que estas reglas se apliquen correctamente.
-Pruebas para otros métodos fromJson y toJson: Prueba la correcta serialización y deserialización de todos tus modelos.
-Pruebas de borde: Asegúrate de manejar casos inusuales o extremos, como JSONs que falten algunos campos o que contengan tipos de datos inesperados.
-Mocking y pruebas de servicios: Si usas servicios para obtener datos, crea pruebas que simulen respuestas de API para diferentes escenarios.
-Pruebas para funciones auxiliares o utilidades: Si tienes funciones que realizan operaciones en tus datos, crea pruebas para esas también.
-Para ejecutar las pruebas, usa el comando flutter test. -->
-
 ## Pruebas unitarias
 
 Las pruebas unitarias son esenciales para garantizar la funcionalidad y confiabilidad de la aplicación. Estas pruebas se enfocan en validar que cada "unidad" individual de software funcione correctamente en aislamiento.
